@@ -1,0 +1,37 @@
+name: yumnotes
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  sizer: ^2.0.15
+  anim_search_bar: ^2.0.3
+  flutter_rating_bar: ^4.0.1
+  google_maps_flutter: ^2.2.6
+  location:
+  flutter_google_places:
+  fluttertoast:
+  charts_flutter:
+  google_maps_webservice:
+  image:
+  google_place:
+  url_launcher:
+  auto_size_text:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
